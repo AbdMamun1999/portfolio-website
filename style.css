@@ -22,6 +22,9 @@
 a{
     text-decoration: none;
 }
+ul,ol{
+    list-style: none;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -126,6 +129,35 @@ button{
     overflow: hidden;
 
 }
+/* Devolop secton end */
+/* Career section */
+.ca-para h2{
+    font-size: 35px;
+    color: #4C4C4C;
+    margin-bottom: 20px;
+}
+.experience{
+    width: 20%;
+}
+
+.experience ul{
+    margin-left: 91px;
+}
+.experience ul li{
+    display: inline;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 8px;
+}
+.experience ul li:last-child{
+    width: 30%;
+}
+
+/* Career section end */
+
+
 .footer h2{
     margin: 35px 0 25px 0;
     color: wheat;
